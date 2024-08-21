@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 const SimpleCounter = (props) => {
   return (
     <>
+
       <div className="d-flex justify-content-center align-items-center fs-1 mt-5">
         <div className=" stopwatchIcon m-3 card text-white bg-primary py-4 px-3">
           <svg
@@ -33,6 +34,7 @@ const SimpleCounter = (props) => {
         <div className="card m-3 text-white bg-primary p-3">{props.tens}</div>
         <div className="card m-3 text-white bg-primary p-3">{props.ones}</div>
       </div>
+
     </>
   );
 };
