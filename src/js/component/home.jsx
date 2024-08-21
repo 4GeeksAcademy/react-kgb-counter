@@ -3,7 +3,6 @@ import SimpleCounter from "./simpleCounter";
 import calculateSeconds from "./library.js/libraryTime";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = ({ counter }) => {
